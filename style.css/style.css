@@ -280,6 +280,7 @@ margin: 0 70px 24px  70px ;
 #aboutUs .socialIcon img{
   width: 40px;
   gap: 10px;
+  cursor: pointer;
 }
 
 #banner{
@@ -367,6 +368,7 @@ margin:0 15%  ;
 #banner .socialIcon img{
   width: 40px;
   gap: 10px;
+  cursor: pointer;
 }
 
 
