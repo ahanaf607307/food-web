@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*  font-family: "Work Sans", sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+#hero {
+  width: 1920px;
+  height: 919px;
+
+  background: linear-gradient(
+      180deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url(../assets/hero-bg.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .heroContent {
+  width: 1000px;
+}
+
+#hero .heroContent .subTitle {
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  font-family: Work Sans;
+  margin-bottom: 16px;
+}
+
+#hero .heroContent .title {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+#hero .heroContent .description {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+
+#hero .heroContent .btnDiv {
+  text-align: center;
+}
+
+.btnDiv .btn {
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  padding: 21px 32px 21px 32px;
+  margin: 32px 0px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: rgb(249, 255, 254);
+}
+
+/* start card section */
+
+#cardBox {
+ height: 100vh;
+ width: 100vw;
+  padding: 70px 120px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#cardBox .cardDiv{
+  
+ 
+  justify-content: center;
+  align-items: center;
+  height: 876px;
+  width: 1320px;
+  
+  border-radius: 5px;
+}
+#cardBox .cardDiv .cardSubtitle{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+  margin-bottom: 16px;
+}
+#cardBox .cardDiv .cardTitle{
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin: 0 25%;
+margin-bottom: 48px;
+}
+#cardBox .cardDiv .cards{
+ 
+  display: flex;
+ display: flex;
+  justify-content: space-between;
+}
+#cardBox .cardDiv .cards .card{
+  width: 424px;
+  gap: 16px;
+  
+}
+#cardBox .cardDiv .cards .card img{
+  width: 100%;
+  border-radius: 16px;
+ margin-bottom: 32px;
+}
+#cardBox .cardDiv .cards .card .span{
+  text-align: center;
+  padding: 14px 32px 14px 32px;
+}
+
+#cardBox .cardDiv .cards .card span{
+  width: 187px;
+  height: 57px;
+  border-radius: 8px;
+align-items: center;
+padding: 14px 32px 14px 32px;
+text-align: center;
+align-items: center;
+background: rgba(82, 195, 3, 0.15);
+margin-bottom: 24px;
+}
+
+#cardBox .cardDiv .cards .card h1{
+  margin: 24px 0;
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+}
+#cardBox .cardDiv .cards .card p{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#cardBox .cardDiv .cardBtn{
+ text-align: center;
+ align-items: center;
+ margin-top: 64px;
+
+}
+#cardBox .cardDiv .cardBtn button{
+  border-radius: 8px;
+  padding: 21px 32px 21px 32px;
+  background: rgb(82, 195, 3);
+border: none;
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+}
+
+/* about section start */
+
+#aboutUs{
+  margin: 80px 0;
+  padding: 50px 0;
+  height: 671px;
+  width: 1920px;
+  display: flex;
+  border: 1px solid rgba(128, 128, 128, 0.452);
+  justify-content: space-between;
+}
+
+#aboutUs .aboutimg{
+  width: 960px;
+  height: 571px;
+}
+
+#aboutUs .aboutimg img {
+  width: 100%;
+  height: 100%;
+}
+
+#aboutUs .aboutDesc{
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  margin: 105px 0; 
+  align-items: center;
+}
+
+#aboutUs .aboutDesc h1{
+
+ color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin: 0 70px 24px  70px ;
+}
+#aboutUs .aboutDesc .dp{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+  margin-bottom: 71px;
+
+}
+#aboutUs .aboutDesc .fp{
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+ 
+}
+#aboutUs .socialIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 32px;
+}
+
+#aboutUs .socialIcon img{
+  width: 40px;
+  gap: 10px;
+}
+
+#banner{
+  width: 100vw;
+
+}
+
+/* banner section */
+
+
+#banner{
+ 
+  padding: 50px 0;
+  height: 671px;
+ 
+  margin: 0 auto;
+  border: 1px solid rgba(128, 128, 128, 0.452);
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom: 200px;
+}
+
+
+
+
+#banner .aboutDesc{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center; 
+   padding: 100px 0;
+ 
+ 
+}
+
+#banner .aboutDesc h1{
+
+ color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 58px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin:0 15%  ;
+}
+#banner .aboutDesc .dp{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+  margin-top: 40px;
+  margin-bottom: 61px;
+
+}
+#banner .aboutDesc .fp{
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+ 
+}
+#banner .socialIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 32px;
+}
+
+#banner .socialIcon img{
+  width: 40px;
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
